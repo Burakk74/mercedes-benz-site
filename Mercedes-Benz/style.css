@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+  }
+nav{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+  }
+  
+  .mlogo{
+    margin: 10px;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-family: sans-serif;
+
+  }
+
+  a:hover{
+    
+    text-decoration:underline ;
+   
+    
+  }
+  h1{
+    letter-spacing: -1px;
+  }
+  h2{
+    color: black;
+    font-family:  Helvetica;
+    font-size: 37px;
+  }
+
+  .orta{
+   width: 960px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 48px;
+ 
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+  }
+  .foto{
+
+    border-radius: 30px;
+  }
+  p{
+    font-size: 22px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+h2{
+  background-color: white ;
+}
+.orta-1-link{
+  /* text-decoration: none;
+  background-color: #000;
+    height: 70px;
+    margin-top: -3px;
+    width: 900px;
+    font-weight: 10000px; */
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+  }
+  .orta-1-link:hover{
+
+  }
+  .alt-başlık{
+    display: block;
+    margin-left: 220px;
+    margin-top: 20px;
+    
+  }
+  
+  
+  .orta-2 h2{
+    color: rgb(223, 26, 26);
+  }
+.more-link{
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  align-items: center;
+  background: #000;
+ width: 1000px;
+  height: 70px;
+margin: 0 auto;
+}
+
+.uclu-bilgi{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.bilgi{
+  padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  margin: 3px 5px;
+  width: 300px;
+}
+
+.bilgi-baslik{
+  font-size: 35px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.card-info {
+  margin-bottom: 12px;
+}
+
+.card-price-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.card-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-info li {
+  margin-bottom: 8px;}
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
